@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Movie {
+final class Movie {
     let title: String
     let coverImageName: String
     let genres: String

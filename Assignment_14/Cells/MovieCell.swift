@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MovieCell: UICollectionViewCell {
+final class MovieCell: UICollectionViewCell {
     
     // MARK: - Properties
     private let mainStackView: UIStackView = {

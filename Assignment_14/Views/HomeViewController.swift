@@ -13,7 +13,7 @@ protocol HomeViewControllerDelegate: AnyObject {
 }
 
 
-class HomeViewController: UIViewController {
+final class HomeViewController: UIViewController {
 
     // MARK: - Properties
     private let appLogoImageView: UIImageView = {
@@ -72,7 +72,7 @@ class HomeViewController: UIViewController {
     // MARK: - View Life Cycles
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupUI()
+            setupUI()
     }
     
     
