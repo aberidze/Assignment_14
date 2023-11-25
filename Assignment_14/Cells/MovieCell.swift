@@ -97,7 +97,13 @@ class MovieCell: UICollectionViewCell {
     
     // MARK: - Cell Life Cycle
     override func prepareForReuse() {
+        super.prepareForReuse()
         
+        movieCoverImageView.image = nil
+        movieTitleLabel.text = nil
+        movieGenresLabel.text = nil
+        movieRatingsLabel.text = nil
+        favoritesButton.setImage(UIImage(systemName: "heart"), for: .normal)
     }
     
     

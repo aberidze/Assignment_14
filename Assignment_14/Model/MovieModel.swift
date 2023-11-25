@@ -165,6 +165,6 @@ class Movie {
             release: "2022",
             director: "Ruben Fleischer",
             cast: "Tom Holland, Mark Wahlberg, Antonio Banderas, Sophia Ali, Tati Gabrielle, Steven Waddington, Pingi Moli, Tiernan Jones"
-        ),
+        )
     ]
 }
