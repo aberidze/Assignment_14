@@ -103,11 +103,11 @@ final class MovieDetailViewController: UIViewController {
         return button
     }()
     
-    weak var movie: Movie?
+    private weak var movie: Movie?
     
     
     // MARK: - Configure
-    private func configure(for movie: Movie) {
+    func configure(for movie: Movie) {
         self.movie = movie
     }
     

@@ -143,7 +143,7 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
         let movieDetailViewController = MovieDetailViewController()
         navigationController?.pushViewController(movieDetailViewController, animated: true)
         let movieClicked = movies[indexPath.row]
-        movieDetailViewController.movie = movieClicked
+        movieDetailViewController.configure(for: movieClicked)
     }
 }
 
